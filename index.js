@@ -11,7 +11,7 @@ module.exports = function(text, pattern, cb) {
   var data = {
     text: text, pattern: pattern
   }
-  rk.notNull(data, ['text', 'pattern'], function (err, reply) {
+  rk.nonNull(data, ['text', 'pattern'], function (err, reply) {
     if (err) {
       return cb(err);
     }

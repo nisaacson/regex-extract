@@ -1,0 +1,33 @@
+{
+  "name": "regex-extract",
+  "version": "0.0.0",
+  "description": "extracts text out of the first capturing group",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nisaacson/regex-extract.git"
+  },
+  "keywords": [
+    "regex",
+    "regular",
+    "expression",
+    "extract",
+    "capture",
+    "group",
+    "capturing"
+  ],
+  "author": "Noah Isaacson",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "should": "~1.2.1",
+    "mocha": "~1.8.1",
+    "required-keys": "0.0.0"
+  }
+}
