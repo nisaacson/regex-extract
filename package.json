@@ -1,13 +1,13 @@
 {
   "name": "regex-extract",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "extracts text out of the first capturing group",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,10 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies": {
+    "required-keys": "~1.0.0"
+  },
+  "devDependencies": {
     "should": "~1.2.1",
-    "mocha": "~1.8.1",
-    "required-keys": "0.0.0"
+    "mocha": "~1.8.1"
   }
 }
